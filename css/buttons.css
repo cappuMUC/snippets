@@ -1,0 +1,57 @@
+/* Button Styles */
+
+.button {
+  padding: 3px 4px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: black;
+  line-height: 20px;
+  list-style: none;
+}
+
+.button:hover {
+  color:white;
+  background:red;
+}
+
+/* Button Group Styles */
+
+.button-group {
+  display: inline-flex;
+  clear:both;
+  padding:0px;
+}
+
+.button-group .button {
+  border-right: 0px;
+  border-radius: 0px;
+  float:left;
+}
+
+.button-group .button:first-child {
+  border-radius: 3px 0px 0px 3px;
+  display:inline-flex;
+}
+
+.button-group .button:last-child {
+  border-radius: 0px 3px 3px 0px;
+  border-right: 1px solid black;
+}
+
+
+/* Search Box Styles */
+.search-box {
+  display: inline-flex;
+}
+
+.search-box .search-input {
+  border: 1px solid black;
+  border-radius: 3px 0px 0px 3px;
+  padding: 3px 3px;
+}
+
+.search-box .button {
+  border-radius: 0px 3px 3px 0px;
+  border-left: 0px;
+}
